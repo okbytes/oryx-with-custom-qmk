@@ -116,7 +116,7 @@ const key_override_t five_key_override = ko_make_basic(MOD_MASK_SHIFT, KC_5, KC_
 // Shift 6 is *
 const key_override_t six_key_override = ko_make_basic(MOD_MASK_SHIFT, KC_6, KC_ASTR);
 // Shift 7 is ]
-const key_override_t sever_key_override = ko_make_basic(MOD_MASK_SHIFT, KC_7, KC_RBRC);
+const key_override_t seven_key_override = ko_make_basic(MOD_MASK_SHIFT, KC_7, KC_RBRC);
 // Shift 8 is )
 const key_override_t eight_key_override = ko_make_basic(MOD_MASK_SHIFT, KC_8, KC_RPRN);
 // Shift 9 is }
