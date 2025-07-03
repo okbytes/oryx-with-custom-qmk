@@ -124,7 +124,7 @@ const key_override_t nine_key_override = ko_make_basic(MOD_MASK_SHIFT, KC_9, KC_
 // Shift 0 is &
 const key_override_t zero_key_override = ko_make_basic(MOD_MASK_SHIFT, KC_0, KC_AMPR);
 
-const key_override_t* key_overrides[] = {
+const key_override_t **key_overrides = (const key_override_t *[]){
   &two_key_override,
   &three_key_override,
   &four_key_override,
